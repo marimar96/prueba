@@ -7,14 +7,14 @@ External pull requests are first applied to facebook's internal branch, then syn
 
 ## Development Requirements
 The project uses [pre-commit](https://github.com/pre-commit/pre-commit) which is included in
-development dependecies (Use requirements-dev.txt).
+development dependecies `requirements-dev.txt`.
 
 
 ## Pull Requests
 We actively welcome your pull requests.
 
 1. Fork the repo and create your branch from `master`.
-2. Run pre-commit install after forking/cloning the repo.
+2. Run `pre-commit install` after forking/cloning the repo.
 3. If you've added code that should be tested, add tests.
 4. If you've changed APIs, update the documentation.
 5. Ensure the test suite passes.
